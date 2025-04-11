@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="icon" type="image/png" href="img/logo/Artboard 1.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/scripts.js" defer></script>
+    <title>Hair Day | Beauty Salon</title>
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <img class="logo" />
+        <!--  NAV -->
+
+        <nav>
+          <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our team</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+      <section class="main" id="#start">
+        <div class="main-image"></div>
+        <div class="main-content">
+          <h1>HAIR DAY</h1>
+          <p>
+            A boutique salon where you can express your unique style with modern
+            cuts and bold colors.
+          </p>
+          <a href="#contact" class="btn">Book your appointment</a>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="section-title">Our Services</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">✂️</div>
+              <h3>Cuts</h3>
+              <p>
+                Personalized styles that perfectly suit your look and face
+                shape.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">🎨</div>
+              <h3>Color</h3>
+              <p>
+                From soft, natural hues to daring, vibrant tones, we are experts
+                in the latest coloring techniques.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">💅</div>
+              <h3>Nails</h3>
+              <p>Complete manicure services to complete your look.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">💄</div>
+              <h3>Makeup</h3>
+              <p>Professional makeup for any special occasion.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section class="team" id="team">
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
+          <div class="team-grid">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="img/joel-muniz-KNsHpdlh5ko-unsplash.jpg" alt="" />
+              </div>
+              <div class="member-info">
+                <h3>Pria</h3>
+                <p>Founder & Colorist</p>
+              </div>
+            </div>
+            <div class="team-member">
+              <div class="member-image">
+                <img src="img/salon-6964546_1280.jpg" alt="" />
+              </div>
+              <div class="member-info">
+                <h3>Garry</h3>
+                <p>Co-Founder & Stylist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  GALLERY -->
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h2 class="section-title">Work Showcase</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <div class="gallery-overlay">
+                <p>- Fantasy Coloring - - -</p>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="gallery-overlay">
+                <p>Event Hairstyling</p>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="gallery-overlay">
+                <p>Modern Haircuts</p>
+              </div>
+            </div>
+            <div class="gallery-item">
+              <div class="gallery-overlay">
+                <p>Nail Art Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TUTORIALS -->
+      <section class="tutorials" id="tutorials">
+        <div class="container">
+          <h2 class="section-title">Tutorials</h2>
+          <div class="tutorial-card">
+            <h3>Tips for keeping your color vibrant between salon visits</h3>
+            <p>
+              Video tutorial on how to keep your color vibrant until your next
+              appointment.
+            </p>
+            <a href="#" class="btn" style="">Watch tutorial</a>
+          </div>
+          <div class="tutorial-card">
+            <h3>Quick Hairstyles for Everyday Life</h3>
+            <p>Learn to create elegant hairstyles in under 5 minutes</p>
+            <a href="#" class="btn">Watch tutorial</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTAC -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Information</h3>
+              <p>Address: 123 Main Street, Madison, Wisconsin</p>
+              <p>Phone: (123) 456-7890</p>
+              <p>Email: hairday@example.com</p>
+              <h3>Hours</h3>
+              <p>Monday - Friday: 9:00 AM - 8:00 PM</p>
+              <p>Saturday: 9:00 AM - 6:00 PM</p>
+              <p>Sunday: Closed</p>
+            </div>
+            <div class="contact-form">
+              <h3>Book your appointment</h3>
+              <form>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <input type="tel" placeholder="Phone" required />
+                <input type="date" required />
+                <select required>
+                  <option value="">Select a service</option>
+                  <option value="cut">Haircut</option>
+                  <option value="color">Color</option>
+                  <option value="style">Hairstyling</option>
+                  <option value="nails">Nails</option>
+                  <option value="makeup">Makeup</option>
+                </select>
+                <textarea placeholder="Message or special request"></textarea>
+                <button type="submit" class="btn">Submit Booking</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <img class="logo" />
+            <p>
+              A boutique salon specializing in cuts, color, and styling, with
+              additional services in makeup and nails.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4>Credits</h4>
+            <div class="credits">
+              <ul>
+                <li>
+                  <a
+                    href="https://unsplash.com/es/@benyamin_bohlouli?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                    >Benyamin Bohlouli</a
+                  >
+                  ►
+                  <a
+                    href="https://unsplash.com/es/fotos/una-mujer-con-un-mono-marron-fumando-un-cigarrillo-KNsHpdlh5ko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                    >Unsplash</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://unsplash.com/es/@jmuniz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                    >Joel Muniz</a
+                  >
+                  ►
+                  <a
+                    href="https://unsplash.com/es/fotos/una-habitacion-llena-de-muebles-y-una-gran-ventana-_C-S7LqxHPw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                    >Unsplash</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://pixabay.com/es/users/mostafa_meraji-13551092/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6964546"
+                    >Mostafa Meraji</a
+                  >
+                  ►
+                  <a
+                    href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6964546"
+                    >Pixabay</a
+                  >
+                </li>
+                <li>The image placeholder was generated by IA.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Hair Day Beauty Salon. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
